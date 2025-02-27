@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layerbase{
+  html{
+    font-family: ".telex-regular", medievalsharp-regular
+  }
+@font-face {
+.medievalsharp-regular {
+  font-family: "MedievalSharp", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.telex-regular {
+  font-family: "Telex", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+}
+ }
